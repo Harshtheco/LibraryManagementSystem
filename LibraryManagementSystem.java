@@ -108,10 +108,6 @@ public class LibraryManagementSystem {
         library.addBook(new Book("Java Programming", "John Doe", "123456"));
         library.addBook(new Book("Data Structures", "Jane Smith", "654321"));
 
-        // Display all books
-        System.out.println("\nAvailable Books:");
-        library.displayBooks();
-
         // Borrow a book
         library.borrowBook("123456");
 
